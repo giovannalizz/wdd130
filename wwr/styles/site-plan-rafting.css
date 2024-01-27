@@ -6,25 +6,25 @@ Fonts are separated by a & */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #CC366D ;
-  --secondary-color: #585659;
-  --accent1-color: #2EA0AA;
-  --accent2-color: #EA7638;;
+  --primary-color: #453A37;
+  --secondary-color: #F3DE3F;
+  --accent1-color: #31CE97;
+  --accent2-color: ;;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Climate Crisis";
   --paragraph-font: Climate, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #EA7638;  /* headlines on a white background */ 
-  --headline-color-on-color: white; /* headlines on a colored background */ 
+  --headline-color-on-white: #453A37;  /* headlines on a white background */ 
+  --headline-color-on-color: #453A37; /* headlines on a colored background */ 
   --paragraph-color-on-white: #585659; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #CC366D  ;
-  --nav-link-color: #091C14;
-  --nav-background-color: #ea7638;
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: #585659;
+  --paragraph-color-on-color: #453A37; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #F3DE3F ;
+  --nav-link-color: #453A37;
+  --nav-background-color: #31CE97;
+  --nav-hover-link-color: #453A37;
+  --nav-hover-background-color: #F3DE3F ;
 }
 
 
