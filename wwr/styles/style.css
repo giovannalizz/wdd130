@@ -1,23 +1,84 @@
+
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+.button-box{
+    text-align: center;
+}
+main section{
+    text-align: center;
+}
+#background{
+    height: 745px;
+}
 body{
-    background-color: aqua;
+    background-color: #FFFFFF;
 }
 header{
-    background-color: red;
+    background-color: #7D9575;
 }
-h1 {
-    font-size: 3em;
+nav a{
+    color: #272A25;
+    text-decoration: none;
 }
-p{
-    font-size: 0.5em;
-    color: magenta
+nav a:hover{
+    background-color: #DCF5E5;
+    color: darkgreen;
 }
-img.logo{
-    width: 100px;
-    height: auto;
+.book, .join{
+    background-color:#B3C4AD;
+    color: #31402C;
+    text-decoration: none;
 }
-img#hero-img{
+.book:hover, .joing:hover{
+    background-color: #DCF5E5;
+    color: darkolivegreen;
+}
+#background{
+    background-color: #DCF5E5;
+}
+.msg{
+    background-color: #DCF5E5;
+}
+.home-title{
+    color: darkgreen;
+}
+h4{
+    color: darkgreen;
+}
+.msg h2{
+    color: darkslategrey;
+}
+.msg p{
+    color: darkgreen; 
+}
+footer{
+    background-color:#7D9575;
+    color: #272A25;
+}
+footer p{
+    font-size: 1.2em;
+}
+footer p a:hover{
+    text-decoration: underline;
+}
+footer a{
+    color: #272A25;
+    text-decoration: none;
+}
+footer a:hover{
+    color: #272A25;
+}
+.logo{
+    width: 80px;
+}
+.icon{
+    width: 80px;
+}
+#hero-img{
     width: 100%;
-}
-h1, h2, h3, h4, h5, h6{
-    color:red
 }
