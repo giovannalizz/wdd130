@@ -1,0 +1,25 @@
+.retangular-below{
+    background-color: grey;
+    width: 1280px;
+    max-width: 100%;
+    margin: auto;
+   
+}
+.rectan-above{
+    width: 1280px;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    
+}
+.circle{
+    width: 200px;
+    border-radius: 50%;
+    text-align: center;
+    border: 15px solid #3e3e3e;
+    margin: 50px;
+}
+body{
+    display: block;
+    text-align: center;
+}
