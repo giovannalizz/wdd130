@@ -24,7 +24,7 @@ main section img{
 }
 body{
     background-color: #FFFFFF;
-    font-family: Anton;
+    font-family: Anton, Arial, fantasy;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -61,7 +61,7 @@ nav a:hover{
 }
 .home-title{
     color: darkgreen;
-    font-family: Rubik Glitch Pop;
+    font-family: 'Rubik Glitch Pop', Arial, sans-serif;
     font-size: 2em;
     margin-top: 10px;
 }
@@ -78,11 +78,11 @@ h2{
 }
 .msg h2{
     color: darkslategrey;
-    font-family: Abril Fatface;
+    font-family: 'Abril Fatface' Arial, serif ;
 }
 .msg p{
     color: darkgreen;
-    font-family: Abril Fatface; 
+    font-family: 'Abril Fatface', Arial, serif; 
     font-size: .8em;
     padding-bottom: 15px;
 }
