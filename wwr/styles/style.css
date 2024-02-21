@@ -92,7 +92,7 @@ h2{
 }
 .msg h2{
     color: darkslategrey;
-    font-family: 'Abril Fatface' Arial, serif ;
+    font-family: 'Abril Fatface', Arial, serif ;
 }
 .msg p{
     color: darkgreen;
