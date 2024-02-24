@@ -1,0 +1,31 @@
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.first-box{
+   grid-column: 1/2;
+   grid-row: 1/4;
+
+}
+
+.second-box{
+    grid-column: 2/3;
+    grid-row: 1/4;
+    background-color: lightslategray;
+    z-index: -1;
+}
+h1{
+  grid-column: 1/3;
+  grid-row: 2/3;
+  font-size: 8 em;
+  z-index: 1;
+}
+
+#cherry{
+    width: 100%;
+    z-index: 1;
+}

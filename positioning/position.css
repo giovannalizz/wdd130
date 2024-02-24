@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+
+.content1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 500px;
+    border: 1px solid;
+    width: 80%;
+
+}
+
+.content2{
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 150px 150px;
+    height: 500px;
+    border: 1px solid;
+    width: 80%;
+
+}
+.content3{
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 150px 150px;
+    height: 500px;
+    border: 1px solid;
+    width: 80%;
+
+}
+.red-box1{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+}
+.green-box1{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+}
+.yellow-box1{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+}
+.blue-box1{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+}
+.red-box2{
+    background-color: red;
+    height: 100%;
+    width: 100%;
+}
+.green-box2{
+    background-color: green;
+    height: 100%;
+    width: 100%;
+}
+.yellow-box2{
+    background-color: yellow;
+    height: 100%;
+    width: 100%;
+}
+.blue-box2{
+    background-color: blue;
+    height: 100%;
+    width: 100%;
+}
+.red-box3{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+}
+.green-box3{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+}
+.yellow-box3{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+}
+.blue-box3{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+}
