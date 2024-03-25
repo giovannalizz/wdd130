@@ -5,6 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>aboutme</title>
     <link rel="stylesheet" href="./styles/site-plan.css">
+<style>
+.container {
+  position: relative;
+  max-width: 800px;
+  margin: auto;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #E97313;
+}
+.container:hover .overlay {
+  opacity: 1;
+}
+.text {
+  color: #30234A;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.my_pic{
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
 </head>
 <body>
   <div id="content">
@@ -20,8 +60,11 @@
     </header>
   <main class="main_me">
     <div>
-      <div>
+      <div class="container">
        <img class="my_pic" src="./image_date/giovanna_pic.jpg" alt= "pic of myself">
+        <div class="overlay">
+          <div class="text">My nicknames are 'Gi', 'Gio' and 'Gigi'</div>
+        </div>
       </div>
       <div>
         <h1 id="my_name"> My name is Giovanna Liz Cruz Moura.</h1>
